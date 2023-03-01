@@ -15,12 +15,12 @@ int main()
     do {
         cout << "Digite a 1 nota: ";
         cin >> nota1;
-    } while (nota1 < 0);
+    } while (nota1 < 0 || nota1 > 10);
 
     do {
         cout << "Digite a 2 nota: ";
         cin >> nota2;
-    } while (nota2 < 0);
+    } while (nota2 < 0 || nota2 > 10);
 
     media = (nota1 + nota2) / 2;
     cout << "\nMedia: " << media << "\n";
