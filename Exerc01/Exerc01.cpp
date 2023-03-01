@@ -23,13 +23,13 @@ int main()
     } while (nota2 < 0);
 
     media = (nota1 + nota2) / 2;
-    cout << "\nMedia: " << media;
+    cout << "\nMedia: " << media << "\n";
 
     if (media >= 6) {
-        cout << "\nAluno Aprovado\n";
+        cout << nome << " foi Aprovado\n";
     }
     else {
-        cout << "\nAluno Reprovado\n";
+        cout << nome << " foi Reprovado\n";
     }
 }
 
