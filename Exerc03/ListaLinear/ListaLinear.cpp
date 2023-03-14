@@ -14,7 +14,7 @@ int posicaoElemento(int valor);
 //--------------------------
 
 
-const int MAX = 3;;
+const int MAX = 10;;
 int lista[MAX]{};
 int nElementos = 0;
 
