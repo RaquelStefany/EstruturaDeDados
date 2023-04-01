@@ -105,7 +105,7 @@ void inserirElemento()
 
 		if (pos != -1)
 		{
-			cout << "Elemento já esta na lista" << endl;
+			cout << "Elemento ja esta na lista" << endl;
 		}
 		else
 		{
@@ -150,7 +150,7 @@ void excluirElemento()
 		}
 		else
 		{
-			cout << "O numero digitado não existe na lista para ser excluido";
+			cout << "O numero digitado nao existe na lista para ser excluido";
 		}
 	}
 }
