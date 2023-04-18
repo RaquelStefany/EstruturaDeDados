@@ -61,7 +61,7 @@ void menu()
 
 void inicializar()
 {
-	// se a lista j· possuir elementos
+	// se a lista j√° possuir elementos
 	// libera a memoria ocupada
 	NO* aux = topo;
 	while (aux != NULL) {
@@ -103,7 +103,7 @@ void push()
 void pop()
 {
 	if (topo == NULL) {
-		cout << "A lista esta vazia" << endl;
+		cout << "A pilha esta vazia" << endl;
 	}
 	else
 	{
